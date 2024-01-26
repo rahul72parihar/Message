@@ -1,0 +1,13 @@
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  each message in messages
+    p= message.text
+    p= message.user
+    p= message.added
+
+  a(href="/new") Go to Form
+
+    
